@@ -1,0 +1,21 @@
+.btnFacebook , .btnGoogle {
+    border: 0px;
+    border-radius: 5px;
+    padding: 7px;
+}
+.btnFacebook{
+    background-color: #1877f2;
+}
+.btnGoogle{
+    background-color: white;
+    border: 0.1px solid black;
+}
+.googleIcons,.btnFacebook{
+    font-size: 20px;
+}
+.facebookIcons{
+    color: white;
+}
+.btnFacebook:focus , .btnGoogle:focus{
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) ;
+}

@@ -1,0 +1,8 @@
+.notification {
+    background-color: var(--doger-blue);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 25px;
+    top: 1px;
+}

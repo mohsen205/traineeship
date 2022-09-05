@@ -1,0 +1,19 @@
+.nav a {
+    color: black !important;
+}
+
+.nav {
+    padding-left: 4.5rem;
+}
+
+.dropdown {
+    background-color: #f3f3f9;
+}
+
+.lighter {
+    background-color: #f1f1f1;
+}
+
+.menu {
+    border: none;
+}

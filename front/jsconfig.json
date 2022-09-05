@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/home/": [
+                "../components/Home"
+            ],
+            "@/util/": [
+                "../components/util/"
+            ]
+        }
+    }
+}

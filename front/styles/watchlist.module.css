@@ -1,0 +1,27 @@
+.btn {
+    text-transform: capitalize;
+    font-size: 14px;
+    height: 28px;
+    line-height: 21px;
+    min-width: 28px;
+    padding: 0 6px;
+    align-items: center;
+    background: none;
+    border: none;
+    border-radius: 6px;
+    color: #131722;
+    display: inline-flex;
+    justify-content: center
+}
+
+.btn:hover {
+    background-color: #f0f3fa;
+}
+
+.btn:not(:first-child) {
+    margin-left: 12px;
+}
+
+.active {
+    background-color: #3179f52e;
+}

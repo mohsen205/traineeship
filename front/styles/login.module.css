@@ -1,0 +1,27 @@
+.login {
+    padding-top: 180px;
+    padding-bottom: 90px;
+}
+
+.input {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.anchor {
+    color: var(--doger-blue);
+    transition: all 0.2s ease-in-out;
+}
+
+.form {
+    min-width: 350px;
+}
+
+.anchor:hover {
+    color: black;
+}
+
+.roundedNone {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}

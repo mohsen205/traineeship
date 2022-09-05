@@ -1,0 +1,40 @@
+.container {
+    background-position: center;
+    background-size: cover;
+    height: 225px;
+}
+
+.content {
+    background-image: linear-gradient(180deg, rgba(255, 250, 250, 0.40) 0%, rgba(0, 0, 0, 0.8) 85%);
+    height: 100%;
+}
+
+.anchor {
+    display: block;
+    margin-top: 170px;
+}
+
+/*Single News*/
+.bgImage {
+    background-position: center;
+    background-size: cover;
+    width: 280px;
+    height: 170px;
+    border-radius: 5px;
+}
+
+.link {
+    transition: all 0.5s ease-in-out;
+}
+
+.link:hover {
+    box-shadow: 0 2px 0 var(--doger-blue);
+}
+
+/*Pagination*/
+.paginationAnchor {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #f1f1f1;
+}

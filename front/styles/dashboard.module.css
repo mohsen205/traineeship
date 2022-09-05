@@ -1,0 +1,16 @@
+.search {
+    position: relative;
+    top: -55px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.table {
+    position: relative;
+    top: -35px;
+}
+
+.input {
+    height: 32px;
+    width: 350px;
+}

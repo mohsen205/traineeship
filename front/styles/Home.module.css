@@ -1,0 +1,145 @@
+.header {
+    background: rgb(0,0,6);
+    background: linear-gradient(90deg, rgba(0,0,6,1) 0%, rgba(25,25,29,1) 50%, rgba(247,250,251,1) 100%);
+    padding-top: 90px;
+    height: 570px;
+    color: white;
+}
+.title{
+    font-size: 80px;
+}
+.title:after{
+    content: "" ;
+    display: block;
+    background-color: var(--doger-blue);
+    width: 70px;
+    height: 3px;
+}
+.btnSquire{
+    background-color: var(--doger-blue);
+    border-color: var(--doger-blue);
+    border-radius: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.btnSquire a {
+    color: white !important;
+}
+.btnSquire:hover{
+    background-color: white;
+    border-color: white;
+}
+.btnSquire:hover a {
+    color: var(--doger-blue) !important;
+}
+.simpleImage {
+    background-image: url("../public/images/stock-market-chart.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 550px;
+    height: 390px;
+}
+
+/*** Service Components ***/
+.services{
+    background-color: #eeee;
+    padding: 35px 0px;
+}
+.subtitle:before{
+    content: "";
+    display: block;
+    background-color: var(--doger-blue);
+    width: 3px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    transition: all 0.5s ease-in-out;
+    min-height: 345px
+}
+.icons {
+    font-size: 80px;
+    background-color: #eeee;
+    border-radius: 50%;
+    padding: 15px;
+    transition: all 0.5s ease-in-out;
+}
+.p{
+    line-height: 25px;
+    font-size: 15px;
+}
+.btnDoger{
+    border: 1.5px solid var(--doger-blue);
+}
+.card:hover{
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+.card:hover .icons{
+    color: var(--doger-blue);
+}
+/** About Us  **/
+.about{
+    padding: 35px 0px;
+}
+.imageBg{
+    background-image: url('../public/images/about-image.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.description {
+    padding-top: 35px;
+}
+.pAbout{
+    width: 470px;
+    margin-top: 20px;
+    line-height: 27px;
+}
+/** Section  **/
+.section{
+    background-image: url('../public/images/section.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.60);
+    padding: 35px 0px;
+}
+.sectionImage{
+    background-image: url('../public/images/home-bg.jpg');
+    height: 300px;
+    width: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    bottom: 70px;
+    left: 100px;
+}
+
+/** Contact Us **/
+.contact{
+    padding: 35px 0px;
+}
+.form {
+    padding: 25px 100px;
+}
+.input {
+    padding: 5px;
+    font-size: 20px;
+}
+/* small size */
+@media (max-width: 991.98px) {
+    .home .header {
+        background-color: black;
+        background: linear-gradient(90deg,black,black);
+    }
+    .simpleImage{
+        display: none;
+    }
+}
